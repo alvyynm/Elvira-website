@@ -1,0 +1,27 @@
+/* CSS RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1b0d0d6c;
+  padding: 3rem; }
+
+.header {
+  background-color: #1b0d0d6c; }
+  .header__heading {
+    font-size: 3rem;
+    color: #fff; }
