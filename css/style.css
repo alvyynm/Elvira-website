@@ -17,16 +17,55 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #000;
-  padding: 3rem; }
+  color: #000; }
+
+.btn {
+  cursor: pointer;
+  min-width: fit-content;
+  padding: 1rem 5rem;
+  border: none;
+  background-color: #000;
+  color: #c331ff;
+  text-transform: uppercase; }
 
 .header {
   background-color: #000;
-  max-width: 1170px;
-  margin: 0 auto; }
-  .header__heading {
-    font-size: 3rem;
-    color: #fff; }
+  margin: 0 auto;
+  color: #000; }
+  .header__content {
+    background: linear-gradient(#c331ff, #6e00ff);
+    margin: 0 auto; }
+    .header__content-text {
+      padding-left: 3rem; }
+      .header__content-text .btn {
+        margin-bottom: 3rem; }
+    .header__content-title {
+      padding: 3rem 0;
+      font-size: 2.5rem; }
+    .header__content-image {
+      background-color: #000; }
+      .header__content-image img {
+        width: 350px;
+        overflow: hidden;
+        opacity: 0.3; }
+
+@media (min-width: 844px) {
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%; }
+    .header__content-text {
+      max-width: 50%; }
+    .header__content-image {
+      background-color: #000;
+      margin-left: 3rem;
+      max-width: 50%;
+      display: flex;
+      justify-content: flex-end; }
+      .header__content-image img {
+        width: 600px;
+        overflow: hidden; } }
 
 .nav__box {
   background-color: #000; }
@@ -51,7 +90,7 @@ body {
 .nav__list a {
   text-decoration: none;
   color: #c331ff;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   padding: 1rem; }
   .nav__list a:hover {
     padding-left: 1.5rem;
@@ -60,9 +99,8 @@ body {
 .hidden {
   display: none; }
 
-@media (min-width: 700px) {
+@media (min-width: 844px) {
   .nav__box {
-    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     align-items: center;

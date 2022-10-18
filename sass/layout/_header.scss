@@ -1,10 +1,57 @@
 .header {
   background-color: $color-black;
-  max-width: 1170px;
   margin: 0 auto;
+  color: $color-black;
 
-  &__heading {
-    font-size: 3rem;
-    color: $color-white;
+  &__content {
+    background: linear-gradient($color-primary-purple, $color-primary-blue);
+    margin: 0 auto;
+
+    &-text {
+      padding-left: $vertical-margin;
+
+      .btn {
+        margin-bottom: $vertical-margin;
+      }
+    }
+    &-title {
+      padding: $vertical-margin 0;
+      font-size: $heading-font-size;
+    }
+
+    &-image {
+      background-color: $color-black;
+      img {
+        width: 350px;
+        overflow: hidden;
+        opacity: 0.3;
+      }
+    }
+  }
+}
+
+@media (min-width: 844px) {
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+
+    &-text {
+      max-width: 50%;
+    }
+
+    &-image {
+      background-color: $color-black;
+      margin-left: $vertical-margin;
+      max-width: 50%;
+      display: flex;
+      justify-content: flex-end;
+
+      img {
+        width: 600px;
+        overflow: hidden;
+      }
+    }
   }
 }
