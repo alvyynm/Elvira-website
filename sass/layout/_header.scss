@@ -1,5 +1,7 @@
 .header {
   background-color: $color-black;
+  max-width: 1170px;
+  margin: 0 auto;
 
   &__heading {
     font-size: 3rem;
