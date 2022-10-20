@@ -2,13 +2,18 @@
   background-color: $color-black;
   margin: 0 auto;
   color: $color-black;
+  margin-top: 1rem;
 
   &__content {
-    background: linear-gradient($color-primary-purple, $color-primary-blue);
     margin: 0 auto;
 
     &-text {
-      padding-left: $vertical-margin;
+      background: linear-gradient(
+        to bottom right,
+        $color-primary-purple,
+        $color-primary-blue
+      );
+      padding: 1rem;
 
       .btn {
         margin-bottom: $vertical-margin;
@@ -21,10 +26,11 @@
 
     &-image {
       background-color: $color-black;
+      min-width: 300px;
+
       img {
-        width: 350px;
-        overflow: hidden;
-        opacity: 0.3;
+        max-width: 100%;
+        filter: grayscale(100%);
       }
     }
   }

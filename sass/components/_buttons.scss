@@ -6,4 +6,9 @@
   background-color: $color-black;
   color: $color-primary-purple;
   text-transform: uppercase;
+
+  &--purple {
+    background-color: $color-primary-purple;
+    color: $color-black;
+  }
 }

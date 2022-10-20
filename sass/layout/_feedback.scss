@@ -1,0 +1,20 @@
+.blockquote {
+  &__img {
+    text-align: left;
+
+    svg {
+      fill: $color-primary-purple;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &__quote {
+    margin-bottom: 2.5rem;
+  }
+
+  &__author {
+    text-transform: uppercase;
+    color: $color-primary-purple;
+    font-weight: 500;
+  }
+}

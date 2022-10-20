@@ -1,0 +1,42 @@
+.aerobic {
+  background-color: $color-black;
+  margin: $vertical-margin 0;
+
+  &__container {
+    &__image {
+      min-width: 300px;
+
+      img {
+        max-width: 100%;
+        filter: grayscale(100%);
+      }
+    }
+
+    &__content {
+      font-family: $alternate-font;
+      background: linear-gradient(
+        to bottom right,
+        $color-primary-purple,
+        $color-primary-blue
+      );
+      padding: $vertical-margin 1rem;
+
+      .container-title {
+        margin-bottom: $vertical-margin;
+        h2 > span {
+          line-height: 0.5;
+          display: block;
+        }
+      }
+
+      .container-content {
+        color: $color-white;
+        padding-bottom: $vertical-margin;
+      }
+
+      .btn {
+        margin-bottom: $vertical-margin;
+      }
+    }
+  }
+}

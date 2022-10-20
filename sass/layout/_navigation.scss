@@ -1,27 +1,35 @@
-.nav__box {
+.nav {
   background-color: $color-black;
-  &-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+  .nav__box {
+    margin: 0 auto;
+    &-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-    img {
-      max-width: 5rem;
-      background: $color-black;
-      border: none;
-      padding: 0;
-      cursor: pointer;
+      img {
+        max-width: 5rem;
+        background: $color-black;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .mobile-nav-toggle {
+        padding: 0;
+        border: none;
+        background-color: $color-black;
+      }
     }
-  }
 
-  &-links {
-    height: 0;
-    overflow: hidden;
+    &-links {
+      height: 0;
+      overflow: hidden;
 
-    &--show {
-      transition: all 0.4s ease-in-out;
-      height: 13rem;
+      &--show {
+        transition: all 0.4s ease-in-out;
+        height: 14rem;
+      }
     }
   }
 }

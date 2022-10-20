@@ -1,0 +1,34 @@
+.footer {
+  color: $color-white;
+  font-family: $alternate-font;
+  padding: $vertical-margin 0;
+
+  &__container {
+    &__heading {
+      min-width: 300px;
+
+      img {
+        max-width: 100%;
+        filter: grayscale(100%);
+      }
+
+      h2 {
+        text-transform: capitalize;
+        margin: 1rem 0;
+        padding: 1rem;
+      }
+
+      hr {
+        border: 1px solid $color-primary-purple;
+        margin: 1rem;
+      }
+    }
+
+    &__body {
+      padding: 1rem;
+      .address__left {
+        margin: 1rem 0;
+      }
+    }
+  }
+}

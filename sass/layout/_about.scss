@@ -1,0 +1,29 @@
+.about {
+  padding: $vertical-margin 0;
+
+  &__container {
+    margin: 0 auto;
+    padding: 1rem;
+
+    &__heading {
+      font-family: $alternate-font;
+      color: $color-primary-purple;
+      font-size: 4rem;
+      line-height: 1.2;
+    }
+
+    &__text {
+      font-family: $alternate-font;
+      color: $color-white;
+
+      p {
+        margin: 1.5rem 0;
+        line-height: 2;
+      }
+    }
+
+    &__button {
+      text-align: end;
+    }
+  }
+}
