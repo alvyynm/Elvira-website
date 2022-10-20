@@ -151,7 +151,7 @@ body {
       overflow: hidden; }
       .nav .nav__box-links--show {
         transition: all 0.4s ease-in-out;
-        height: 14rem; }
+        height: 18rem; }
 
 .nav__list a {
   text-decoration: none;
