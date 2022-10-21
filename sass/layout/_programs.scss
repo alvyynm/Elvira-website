@@ -48,3 +48,12 @@
     }
   }
 }
+
+@media (min-width: 844px) {
+  .programs__container {
+    &__cards {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

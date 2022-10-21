@@ -40,3 +40,47 @@
     }
   }
 }
+
+@media screen and (min-width: 844px) {
+  .aerobic__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 80%;
+    margin-inline: auto;
+
+    &__image {
+      flex: 1;
+      height: 450px;
+      text-align: end;
+
+      img {
+        height: 450px;
+        width: 500px;
+        object-fit: cover;
+      }
+
+      &--left {
+        text-align: start;
+      }
+    }
+
+    &__content {
+      flex: 1.3;
+      height: 450px;
+      line-height: 2;
+      padding: 0;
+
+      display: flex;
+
+      .wrapper {
+        max-width: 60%;
+        margin: auto;
+      }
+
+      .container-title {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}

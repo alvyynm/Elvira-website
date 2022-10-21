@@ -27,3 +27,21 @@
     }
   }
 }
+
+@media screen and (min-width: 844px) {
+  .about {
+    &__container {
+      max-width: 90%;
+
+      &__heading {
+        span {
+          display: block;
+        }
+      }
+
+      &__text {
+        margin-left: 5rem;
+      }
+    }
+  }
+}
