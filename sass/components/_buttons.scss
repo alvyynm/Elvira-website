@@ -7,6 +7,11 @@
   color: $color-primary-purple;
   text-transform: uppercase;
 
+  &:hover {
+    background-color: #404040;
+    color: $color-white;
+  }
+
   &--purple {
     background-color: $color-primary-purple;
     color: $color-black;

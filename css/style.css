@@ -31,6 +31,9 @@ body {
   background-color: #000;
   color: #c331ff;
   text-transform: uppercase; }
+  .btn:hover {
+    background-color: #404040;
+    color: #fff; }
   .btn--purple {
     background-color: #c331ff;
     color: #000; }
@@ -194,7 +197,8 @@ body {
   padding: 1rem; }
   .nav__list a:hover {
     padding-left: 1.5rem;
-    transition: all 0.4s ease-in; }
+    transition: all 0.4s ease-in;
+    color: #fff; }
 
 .hidden {
   display: none; }
@@ -220,7 +224,6 @@ body {
       text-decoration: none; }
       .nav__list a:hover {
         padding: 0;
-        color: #6e00ff;
         transition: all 0.2s ease-in; } }
 
 .programs {
